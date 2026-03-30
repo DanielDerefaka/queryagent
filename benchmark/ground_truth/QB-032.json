@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-032",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "WITH ranked AS (  SELECT netuid, uid, hotkey, stake, emission,     emission / NULLIF(stake, 0) AS efficiency,     ROW_NUMBER() OVER (PARTITION BY netuid ORDER BY emission / NULLIF(stake, 0) DESC) AS rn   FROM validators   WHERE stake > 0) SELECT netuid, uid, hotkey, stake, emission, efficiency FROM ranked WHERE rn <= 3 ORDER BY netuid, efficiency DESC",
+  "ground_truth_hash": "sha256:8631152162157bf319dea2d9d14457590b002619b9e468fe2c398a0ca18c52a2",
+  "tier": "hard",
+  "budget_ms": 15000
+}

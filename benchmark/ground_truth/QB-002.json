@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-002",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "SELECT COUNT(DISTINCT netuid) AS subnet_count FROM subnets",
+  "ground_truth_hash": "sha256:e5ea5d86159c6c1432badb83468e2ded1e3b654c478edb8540f33548a14c3498",
+  "tier": "easy",
+  "budget_ms": 5000
+}

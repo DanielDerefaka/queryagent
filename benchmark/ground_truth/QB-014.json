@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-014",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "SELECT netuid, COUNT(*) AS active_miners FROM miners WHERE active = true GROUP BY netuid ORDER BY active_miners DESC",
+  "ground_truth_hash": "sha256:10611b2d18668559e0b700b963e8aa8129b19c3ba4459bf5f63307d5163d14d8",
+  "tier": "medium",
+  "budget_ms": 8000
+}

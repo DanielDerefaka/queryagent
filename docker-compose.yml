@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  miner:
+    build: .
+    entrypoint: ["python", "-m", "neurons.miner"]
+    command: ["--netuid", "${NETUID}", "--subtensor.network", "${SUBTENSOR_NETWORK:-test}"]
+    environment:
+      - BITTENSOR_WALLET_NAME=${BITTENSOR_WALLET_NAME:-default}
+      - BITTENSOR_WALLET_HOTKEY=${BITTENSOR_WALLET_HOTKEY:-default}
+    volumes:
+      - ~/.bittensor:/root/.bittensor
+      - ./benchmark:/app/benchmark
+    ports:
+      - "8091:8091"
+
+  validator:
+    build: .
+    entrypoint: ["python", "-m", "neurons.validator"]
+    command: ["--netuid", "${NETUID}", "--subtensor.network", "${SUBTENSOR_NETWORK:-test}"]
+    environment:
+      - BITTENSOR_WALLET_NAME=${BITTENSOR_WALLET_NAME:-default}
+      - BITTENSOR_WALLET_HOTKEY=${BITTENSOR_WALLET_HOTKEY:-default}
+    volumes:
+      - ~/.bittensor:/root/.bittensor
+      - ./benchmark:/app/benchmark

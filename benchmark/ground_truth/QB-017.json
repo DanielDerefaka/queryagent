@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-017",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "SELECT netuid, uid, hotkey, dividends FROM validators ORDER BY dividends DESC LIMIT 10",
+  "ground_truth_hash": "sha256:069ac01acd8840702663f75d63c14e0360fbf11fc21e8060fffed11c5a8267ae",
+  "tier": "medium",
+  "budget_ms": 8000
+}

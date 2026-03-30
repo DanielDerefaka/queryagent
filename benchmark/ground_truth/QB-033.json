@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-033",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "WITH ordered AS (  SELECT netuid, stake,     ROW_NUMBER() OVER (PARTITION BY netuid ORDER BY stake) AS i,     COUNT(*) OVER (PARTITION BY netuid) AS n,     SUM(stake) OVER (PARTITION BY netuid) AS total   FROM metagraph   WHERE stake > 0) SELECT netuid,   1 - (2.0 / (n * NULLIF(total, 0))) * SUM(stake * (n + 1 - i)) AS gini FROM ordered GROUP BY netuid, n, total HAVING n > 1 ORDER BY gini DESC",
+  "ground_truth_hash": "sha256:c637fdad9ba8a71d93fcffd00976f804152597a2f2427e329c8d7cb41a1d551a",
+  "tier": "hard",
+  "budget_ms": 15000
+}

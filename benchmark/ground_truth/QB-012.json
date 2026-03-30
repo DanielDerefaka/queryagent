@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-012",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "SELECT netuid, uid, hotkey, incentive FROM miners ORDER BY incentive DESC LIMIT 10",
+  "ground_truth_hash": "sha256:646caa4ded93867163eea3331c124b270f1be3acf01a9e614615507d210c4232",
+  "tier": "medium",
+  "budget_ms": 8000
+}

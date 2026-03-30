@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-005",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "SELECT COUNT(*) AS validator_count FROM validators WHERE stake > 0",
+  "ground_truth_hash": "sha256:8241de7548b98e926428ae8f308e0d54aaf3294cc10eb7e4d05e85a8e5303fa2",
+  "tier": "easy",
+  "budget_ms": 5000
+}

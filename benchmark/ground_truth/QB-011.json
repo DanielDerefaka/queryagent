@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-011",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "SELECT netuid, SUM(emission) AS total_emission FROM emissions GROUP BY netuid ORDER BY total_emission DESC LIMIT 1",
+  "ground_truth_hash": "sha256:e8746a953874854636a738287e509c5adabbebd7de7fee6466217811666aaccc",
+  "tier": "medium",
+  "budget_ms": 8000
+}

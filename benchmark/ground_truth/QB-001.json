@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-001",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "SELECT SUM(stake) AS total_staked FROM stakes",
+  "ground_truth_hash": "sha256:4dfe487c921e8e59068a2fecb43ac9509b669556532567791781cbd03dacfd3e",
+  "tier": "easy",
+  "budget_ms": 5000
+}

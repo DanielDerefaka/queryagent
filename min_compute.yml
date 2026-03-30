@@ -1,0 +1,13 @@
+miner:
+  cpu: 4 cores
+  ram: 8 GB
+  storage: 5 GB
+  gpu: not required
+  network: stable connection for axon server
+
+validator:
+  cpu: 4 cores
+  ram: 16 GB
+  storage: 10 GB
+  gpu: not required
+  network: stable connection for dendrite queries

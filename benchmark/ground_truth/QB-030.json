@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-030",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "WITH subnet_stats AS (  SELECT netuid,     AVG(validator_trust) AS avg_vtrust,     SUM(emission) AS total_emission   FROM metagraph   GROUP BY netuid), network_avg AS (  SELECT     AVG(avg_vtrust) AS net_avg_vtrust,     AVG(total_emission) AS net_avg_emission   FROM subnet_stats) SELECT s.netuid, s.avg_vtrust, s.total_emission FROM subnet_stats s, network_avg n WHERE s.avg_vtrust > n.net_avg_vtrust   AND s.total_emission < n.net_avg_emission ORDER BY s.avg_vtrust DESC",
+  "ground_truth_hash": "sha256:d8356ffff3e46c2b063dbab6cb5cf6450b0219f0090e48bf6a834efc35f41c0b",
+  "tier": "hard",
+  "budget_ms": 15000
+}

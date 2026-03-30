@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-013",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "SELECT netuid, AVG(validator_trust) AS avg_vtrust FROM validators GROUP BY netuid ORDER BY avg_vtrust DESC",
+  "ground_truth_hash": "sha256:285dc0ca68c5763ec1c8bb85878d0b9576b2c81b20fcfcc4be8e795db0e29712",
+  "tier": "medium",
+  "budget_ms": 8000
+}

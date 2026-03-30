@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-016",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "SELECT e.netuid, SUM(e.emission) / NULLIF(COUNT(DISTINCT m.uid), 0) AS emission_per_miner FROM emissions e JOIN miners m ON e.netuid = m.netuid AND m.active = true GROUP BY e.netuid ORDER BY emission_per_miner DESC LIMIT 5",
+  "ground_truth_hash": "sha256:0e013dafdb8eabce21a130ebb04a2486210a172ac6c9c809a660d405b5ab6588",
+  "tier": "medium",
+  "budget_ms": 8000
+}

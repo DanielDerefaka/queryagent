@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-018",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "WITH subnet_stakes AS (  SELECT netuid, uid, stake,     SUM(stake) OVER (PARTITION BY netuid) AS total_stake   FROM validators) SELECT netuid, uid, stake, total_stake,   stake / NULLIF(total_stake, 0) AS stake_share FROM subnet_stakes WHERE stake / NULLIF(total_stake, 0) > 0.5 ORDER BY stake_share DESC",
+  "ground_truth_hash": "sha256:25360c0629f9d205f79c60cea8c4687664d2b1e3e602470f7e0dea6ff267afd8",
+  "tier": "medium",
+  "budget_ms": 8000
+}

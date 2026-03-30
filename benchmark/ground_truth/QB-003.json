@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-003",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "SELECT COUNT(*) AS miner_count FROM miners WHERE netuid = 1 AND active = true",
+  "ground_truth_hash": "sha256:bba9f365e1f6e756eef84de4eafd65a3f1a413c4a15eea173bcb546a9edb3dfc",
+  "tier": "easy",
+  "budget_ms": 5000
+}

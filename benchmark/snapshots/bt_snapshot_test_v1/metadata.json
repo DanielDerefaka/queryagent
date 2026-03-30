@@ -1,0 +1,22 @@
+{
+  "snapshot_id": "bt_snapshot_test_v1",
+  "build_time": "2026-03-10T19:12:19.015826+00:00",
+  "block_number": 6655193,
+  "network": "test",
+  "row_counts": {
+    "subnets": 10,
+    "validators": 9,
+    "miners": 1106,
+    "stakes": 490,
+    "emissions": 24,
+    "metagraph": 1115
+  },
+  "checksums": {
+    "subnets.parquet": "sha256:1e477077a3a818064ca31350e1acb078a2e20c3ce77d67961b0378d0c0688ab5",
+    "validators.parquet": "sha256:aa105bfa6eb83fafb6bb4257c96682e600625102ec3a64e17fbf6ee110bab84f",
+    "miners.parquet": "sha256:51b3b4aed57f7025a82e8a2221f3f16e39df0e22cfdb8518d25d424f71a02448",
+    "stakes.parquet": "sha256:2361a25580e4de9ea3933324a302bed8e6476f5c14140b1c28ea7b6e60947ece",
+    "emissions.parquet": "sha256:80eb935b76ac1ce4d0d9b819cd1c470aa8290a9052f4b93b75dfa1b171f2d896",
+    "metagraph.parquet": "sha256:90350ee031c0e79da9950e998f9fa581f3c99bfb9431d6ec8a9a8e90d425f91d"
+  }
+}

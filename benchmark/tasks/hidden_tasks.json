@@ -1,0 +1,38 @@
+[
+  {
+    "task_id": "QB-030",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "Subnets where average validator trust is above network average but total emission is below network average",
+    "tier": "hard",
+    "constraints": {},
+    "budget_ms": 15000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-031",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "Correlation between stake concentration (max stake share) and number of active miners per subnet",
+    "tier": "hard",
+    "constraints": {},
+    "budget_ms": 15000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-032",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "For each subnet, rank validators by emission efficiency (emission / stake) and show top 3",
+    "tier": "hard",
+    "constraints": {},
+    "budget_ms": 15000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-033",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "Subnets with highest Gini coefficient of stake distribution",
+    "tier": "hard",
+    "constraints": {},
+    "budget_ms": 15000,
+    "latency_ms": 30000
+  }
+]

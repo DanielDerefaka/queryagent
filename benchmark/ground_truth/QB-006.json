@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-006",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "SELECT AVG(stake) AS avg_stake FROM validators WHERE stake > 0",
+  "ground_truth_hash": "sha256:be96fcd326e31398dcdfb4ae562bf6719e48c5fb1c631db7b06a826a9b01745f",
+  "tier": "easy",
+  "budget_ms": 5000
+}

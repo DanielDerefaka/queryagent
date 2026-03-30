@@ -1,0 +1,146 @@
+[
+  {
+    "task_id": "QB-001",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "What is the total TAO staked across all subnets?",
+    "tier": "easy",
+    "constraints": {},
+    "budget_ms": 5000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-002",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "How many active subnets are there?",
+    "tier": "easy",
+    "constraints": {},
+    "budget_ms": 5000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-003",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "How many active miners are on subnet 1?",
+    "tier": "easy",
+    "constraints": {},
+    "budget_ms": 5000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-004",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "What is the total emission across all subnets?",
+    "tier": "easy",
+    "constraints": {},
+    "budget_ms": 5000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-005",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "How many validators have non-zero stake?",
+    "tier": "easy",
+    "constraints": {},
+    "budget_ms": 5000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-006",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "What is the average stake per validator?",
+    "tier": "easy",
+    "constraints": {},
+    "budget_ms": 5000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-010",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "Top 10 validators by stake across all subnets",
+    "tier": "medium",
+    "constraints": {},
+    "budget_ms": 8000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-011",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "Which subnet has the highest total emission?",
+    "tier": "medium",
+    "constraints": {},
+    "budget_ms": 8000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-012",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "Top 10 miners by incentive score",
+    "tier": "medium",
+    "constraints": {},
+    "budget_ms": 8000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-013",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "Average validator trust per subnet",
+    "tier": "medium",
+    "constraints": {},
+    "budget_ms": 8000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-014",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "Subnets ranked by number of active miners",
+    "tier": "medium",
+    "constraints": {},
+    "budget_ms": 8000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-015",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "Distribution of stake across subnets (total stake per subnet)",
+    "tier": "medium",
+    "constraints": {},
+    "budget_ms": 8000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-016",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "Top 5 subnets by emission per active miner",
+    "tier": "medium",
+    "constraints": {},
+    "budget_ms": 8000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-017",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "Validators with highest dividends across all subnets",
+    "tier": "medium",
+    "constraints": {},
+    "budget_ms": 8000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-018",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "Subnets where the top validator holds more than 50% of total stake",
+    "tier": "medium",
+    "constraints": {},
+    "budget_ms": 8000,
+    "latency_ms": 30000
+  },
+  {
+    "task_id": "QB-019",
+    "snapshot_id": "bt_snapshot_test_v1",
+    "question": "Number of neurons per subnet (validators + miners)",
+    "tier": "medium",
+    "constraints": {},
+    "budget_ms": 8000,
+    "latency_ms": 30000
+  }
+]

@@ -1,0 +1,231 @@
+{
+  "snapshot_id": "bt_snapshot_test_v1",
+  "tables": [
+    {
+      "name": "subnets",
+      "columns": [
+        {
+          "name": "netuid",
+          "type": "INTEGER"
+        },
+        {
+          "name": "tempo",
+          "type": "INTEGER"
+        },
+        {
+          "name": "max_n",
+          "type": "INTEGER"
+        },
+        {
+          "name": "immunity_period",
+          "type": "INTEGER"
+        },
+        {
+          "name": "min_difficulty",
+          "type": "INTEGER"
+        },
+        {
+          "name": "weights_rate_limit",
+          "type": "INTEGER"
+        }
+      ]
+    },
+    {
+      "name": "validators",
+      "columns": [
+        {
+          "name": "netuid",
+          "type": "INTEGER"
+        },
+        {
+          "name": "uid",
+          "type": "INTEGER"
+        },
+        {
+          "name": "hotkey",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "stake",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "trust",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "consensus",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "incentive",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "emission",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "dividends",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "active",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "validator_trust",
+          "type": "DOUBLE"
+        }
+      ]
+    },
+    {
+      "name": "miners",
+      "columns": [
+        {
+          "name": "netuid",
+          "type": "INTEGER"
+        },
+        {
+          "name": "uid",
+          "type": "INTEGER"
+        },
+        {
+          "name": "hotkey",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "stake",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "trust",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "consensus",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "incentive",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "emission",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "dividends",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "active",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "validator_trust",
+          "type": "DOUBLE"
+        }
+      ]
+    },
+    {
+      "name": "stakes",
+      "columns": [
+        {
+          "name": "netuid",
+          "type": "INTEGER"
+        },
+        {
+          "name": "uid",
+          "type": "INTEGER"
+        },
+        {
+          "name": "hotkey",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "stake",
+          "type": "DOUBLE"
+        }
+      ]
+    },
+    {
+      "name": "emissions",
+      "columns": [
+        {
+          "name": "netuid",
+          "type": "INTEGER"
+        },
+        {
+          "name": "uid",
+          "type": "INTEGER"
+        },
+        {
+          "name": "hotkey",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "emission",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "incentive",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "dividends",
+          "type": "DOUBLE"
+        }
+      ]
+    },
+    {
+      "name": "metagraph",
+      "columns": [
+        {
+          "name": "netuid",
+          "type": "INTEGER"
+        },
+        {
+          "name": "uid",
+          "type": "INTEGER"
+        },
+        {
+          "name": "hotkey",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "stake",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "trust",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "consensus",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "incentive",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "emission",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "dividends",
+          "type": "DOUBLE"
+        },
+        {
+          "name": "active",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "validator_trust",
+          "type": "DOUBLE"
+        }
+      ]
+    }
+  ]
+}

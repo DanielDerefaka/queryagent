@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-015",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "SELECT netuid, SUM(stake) AS total_stake FROM metagraph GROUP BY netuid ORDER BY total_stake DESC",
+  "ground_truth_hash": "sha256:6e4b2da09f7b5d1b75f60ed40c34fc509050f5d3b75adb81374505627eccb3f8",
+  "tier": "medium",
+  "budget_ms": 8000
+}

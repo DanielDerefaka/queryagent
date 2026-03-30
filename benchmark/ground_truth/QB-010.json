@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-010",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "SELECT netuid, uid, hotkey, stake FROM validators ORDER BY stake DESC LIMIT 10",
+  "ground_truth_hash": "sha256:e60b4447f2aadbc166d8257f28bf71d77cf378b3803913efc1f47c8ea779c1f4",
+  "tier": "medium",
+  "budget_ms": 8000
+}

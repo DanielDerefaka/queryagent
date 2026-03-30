@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-031",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "WITH stake_conc AS (  SELECT netuid,     MAX(stake) / NULLIF(SUM(stake), 0) AS max_stake_share   FROM metagraph   GROUP BY netuid), miner_counts AS (  SELECT netuid, COUNT(*) AS active_miners   FROM miners   WHERE active = true   GROUP BY netuid) SELECT sc.netuid, sc.max_stake_share, mc.active_miners FROM stake_conc sc JOIN miner_counts mc ON sc.netuid = mc.netuid ORDER BY sc.max_stake_share DESC",
+  "ground_truth_hash": "sha256:2414c3d3dacfc951dfb23ca9417801fafd494dde578a7c700b91decc7c4163d0",
+  "tier": "hard",
+  "budget_ms": 15000
+}

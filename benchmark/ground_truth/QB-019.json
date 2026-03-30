@@ -1,0 +1,8 @@
+{
+  "task_id": "QB-019",
+  "snapshot_id": "bt_snapshot_test_v1",
+  "reference_sql": "SELECT netuid, COUNT(*) AS neuron_count FROM metagraph GROUP BY netuid ORDER BY neuron_count DESC",
+  "ground_truth_hash": "sha256:3200c8e439df41688e7ceefda675f0f0f7dccc43117ccf3f6bdca14b9c4339a5",
+  "tier": "medium",
+  "budget_ms": 8000
+}

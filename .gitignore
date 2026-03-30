@@ -1,0 +1,52 @@
+# === SECRETS (never commit) ===
+*.pem
+**/.env
+**/.env.local
+alice/
+
+# === LARGE FILES ===
+*.mov
+*.mp4
+*.png
+*.jpg
+font/
+evidence/
+
+# === FRONTEND (separate repo) ===
+frontend/
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# === IDE / OS / TOOLS ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+.claude/
+
+# === TEST ARTIFACTS ===
+.pytest_cache/
+htmlcov/
+.coverage
+
+# === BITTENSOR ===
+~/.bittensor/
+
+# === DOCS (binary blobs — keep only .md) ===
+docs/*.pdf
+docs/*.docx
+docs/*.html
+
+# === SNAPSHOTS (large parquet — download separately) ===
+benchmark/snapshots/*/tables/*.parquet
