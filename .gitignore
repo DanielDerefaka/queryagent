@@ -43,10 +43,25 @@ htmlcov/
 # === BITTENSOR ===
 ~/.bittensor/
 
-# === DOCS (binary blobs — keep only .md) ===
+# === DOCS (only Miner.md, Validator.md, Scoring.md are tracked) ===
 docs/*.pdf
 docs/*.docx
 docs/*.html
+docs/Deploy.md
+docs/INVESTOR_BREAKDOWN.md
+docs/PITCH_PREP.md
+docs/QUERYAGENT_MASTER_PLAN.md
+docs/QUERYAGENT_VIDEO_SCRIPT.md
+docs/ROADMAP.md
+docs/TESTNET_REPORT.md
+docs/Untitled
+docs/checks.md
+docs/mechanism_design.md
+docs/platform_architecture.md
+docs/ui.md
+
+# === FINDINGS (research notes — not for GitHub) ===
+findings/
 
 # === SNAPSHOTS (large parquet — download separately) ===
 benchmark/snapshots/*/tables/*.parquet
