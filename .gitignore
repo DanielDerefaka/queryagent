@@ -60,8 +60,11 @@ docs/mechanism_design.md
 docs/platform_architecture.md
 docs/ui.md
 
-# === FINDINGS (research notes — not for GitHub) ===
+# === INTERNAL DOCS (not for GitHub) ===
 findings/
+PROJECT_STATUS.md
+PROJECT_CONTEXT.md
+New_structure.md
 
 # === SNAPSHOTS (large parquet — download separately) ===
 benchmark/snapshots/*/tables/*.parquet
