@@ -56,5 +56,6 @@ TIERS = {
 }
 
 # ── Validator ──
-WEIGHTS_RATE_LIMIT_BLOCKS = 20    # min blocks between set_weights() calls
-METAGRAPH_SYNC_INTERVAL_S = 120   # seconds between metagraph syncs
+WEIGHTS_RATE_LIMIT_BLOCKS = 200   # min blocks between set_weights() calls (~40 min)
+VALIDATION_INTERVAL_S = 120       # seconds between validation rounds (2 min)
+METAGRAPH_SYNC_INTERVAL_S = 300   # seconds between metagraph syncs (5 min)

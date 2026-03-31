@@ -19,6 +19,7 @@ from queryagent.tasks import TaskPool
 from queryagent.training import save_round_training_data
 from queryagent.config import (
     WEIGHTS_RATE_LIMIT_BLOCKS,
+    VALIDATION_INTERVAL_S,
     DEFAULT_TIMEOUT_S,
 )
 
@@ -273,7 +274,7 @@ def main():
                 else:
                     logger.info("All weights zero — skipping set_weights")
 
-            time.sleep(12)
+            time.sleep(VALIDATION_INTERVAL_S)
 
     except KeyboardInterrupt:
         logger.info("Validator shutting down...")

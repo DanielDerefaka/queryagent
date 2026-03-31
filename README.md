@@ -225,7 +225,8 @@ Key settings in `queryagent/config.py`:
 | `HARD_SHARE` | 20% | Task sampling weight |
 | `HIDDEN_RATIO` | 20% | Probability of hidden task |
 | `FLOAT_PRECISION` | 6 | Decimal places for canonical hash |
-| `WEIGHTS_RATE_LIMIT` | 20 blocks | Min gap between set_weights calls |
+| `WEIGHTS_RATE_LIMIT` | 200 blocks | Min gap between set_weights calls (~40 min) |
+| `VALIDATION_INTERVAL_S` | 120 | Seconds between validation rounds |
 
 ---
 

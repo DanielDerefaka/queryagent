@@ -11,7 +11,7 @@
 │   3. Load DuckDB snapshot (Parquet → in-memory)                          │
 │   4. Query neuron count + hotkeys via substrate                          │
 │                                                                          │
-│   ┌────────────────── EVERY ~12 SECONDS ──────────────────┐             │
+│   ┌────────────────── EVERY ~2 MINUTES ───────────────────┐             │
 │   │                                                        │             │
 │   │  a. Sample task (weighted: 30% easy, 50% med, 20% hard)│             │
 │   │  b. Look up ground truth hash                          │             │
@@ -27,7 +27,7 @@
 │   │                                                        │             │
 │   └────────────────────────────────────────────────────────┘             │
 │                                                                          │
-│   ┌────────────── EVERY 20 BLOCKS (~4 minutes) ──────────┐              │
+│   ┌────────────── EVERY 200 BLOCKS (~40 minutes) ─────────┐              │
 │   │                                                        │              │
 │   │  h. Normalize EMA → weights                           │              │
 │   │  i. Submit set_weights() extrinsic on-chain           │              │
@@ -163,7 +163,8 @@ EMA scores: [0.0, 0.0, 0.0, 0.981, 0.981, 0.981, 0.463, 0.463, 0.463, 0.463, 0.1
 
 | Setting | Default | Description |
 |---------|---------|-------------|
-| `WEIGHTS_RATE_LIMIT_BLOCKS` | 20 | Min blocks between set_weights calls |
+| `WEIGHTS_RATE_LIMIT_BLOCKS` | 200 | Min blocks between set_weights calls (~40 min) |
+| `VALIDATION_INTERVAL_S` | 120 | Seconds between validation rounds |
 | `DEFAULT_TIMEOUT_S` | 30 | Dendrite query timeout |
 | `EMA_ALPHA` | 0.1 | Smoothing factor |
 | `HIDDEN_RATIO` | 0.20 | Fraction of hidden tasks sampled |
