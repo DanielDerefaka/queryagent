@@ -1,0 +1,334 @@
+2026-03-28 10:49:21 [info     ] Wallet: miner_8 | Hotkey: 5DU4CZiwrVHo3Ky4YuJYGc2ZSYexx8gYtsmEECjYRfLsM1Me
+2026-03-28 10:49:21 [info     ] Chain block: 5634
+2026-03-28 10:49:23 [info     ] Miner axon running on port 8098
+2026-03-28 10:49:23 [info     ] Miner miner_8 alive | block=5634
+[34m2026-03-28 10:49:23.667[39m | [1m[31m ERROR  [0m | [31mSubtensor returned: Runtime API Call 'NeuronInfoRuntimeApi.get_neuron' not found in registry[0m
+2026-03-28 10:49:35 [info     ] Miner miner_8 alive | block=5634
+2026-03-28 10:49:48 [info     ] Miner miner_8 alive | block=5635
+2026-03-28 10:50:47 [info     ] Miner miner_8 alive | block=5637
+2026-03-28 10:50:48 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+[34m2026-03-28 10:50:48.712[39m | [1m[31m ERROR  [0m | NotVerifiedException#e3db1439-f4ad-44b5-924d-a345db29e175: Not Verified with error: Nonce is too old: acceptable delta is 34.00 seconds but request was 68.38 seconds old
+[34m2026-03-28 10:50:49.386[39m | [1m[31m ERROR  [0m | NotVerifiedException#aa4a79ee-0273-4b95-946a-21dcbff76c05: Not Verified with error: Nonce is too old: acceptable delta is 34.00 seconds but request was 69.00 seconds old
+2026-03-28 10:50:50 [warning  ] No SQL for task: QB-015 / Distribution of stake across subnets (total stake per subnet)
+2026-03-28 10:50:50 [warning  ] No SQL for task: QB-033 / Subnets with highest Gini coefficient of stake distribution
+2026-03-28 10:50:50 [warning  ] No SQL for task: QB-017 / Validators with highest dividends across all subnets
+2026-03-28 10:50:59 [info     ] Miner miner_8 alive | block=5638
+2026-03-28 10:51:11 [info     ] Miner miner_8 alive | block=5638
+2026-03-28 10:51:23 [info     ] Miner miner_8 alive | block=5639
+2026-03-28 10:51:35 [info     ] Miner miner_8 alive | block=5639
+2026-03-28 10:51:47 [info     ] Miner miner_8 alive | block=5640
+2026-03-28 10:51:50 [warning  ] No SQL for task: QB-033 / Subnets with highest Gini coefficient of stake distribution
+2026-03-28 10:51:51 [warning  ] No SQL for task: QB-033 / Subnets with highest Gini coefficient of stake distribution
+2026-03-28 10:51:52 [warning  ] No SQL for task: QB-033 / Subnets with highest Gini coefficient of stake distribution
+2026-03-28 10:51:59 [info     ] Miner miner_8 alive | block=5640
+2026-03-28 10:52:07 [warning  ] No SQL for task: QB-018 / Subnets where the top validator holds more than 50% of total stake
+2026-03-28 10:52:09 [warning  ] No SQL for task: QB-010 / Top 10 validators by stake across all subnets
+2026-03-28 10:52:09 [warning  ] No SQL for task: QB-012 / Top 10 miners by incentive score
+2026-03-28 10:52:11 [info     ] Miner miner_8 alive | block=5641
+2026-03-28 10:52:23 [info     ] Miner miner_8 alive | block=5641
+2026-03-28 10:52:24 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=8.6
+2026-03-28 10:52:26 [warning  ] No SQL for task: QB-032 / For each subnet, rank validators by emission efficiency (emission / stake) and show top 3
+2026-03-28 10:52:26 [warning  ] No SQL for task: QB-030 / Subnets where average validator trust is above network average but total emission is below network average
+2026-03-28 10:52:35 [info     ] Miner miner_8 alive | block=5642
+2026-03-28 10:52:40 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=3.1
+2026-03-28 10:52:42 [info     ] Answered task=QB-002 | hash=sha256:e5ea5d86159c6c1432badb8... | exec_ms=18.8
+2026-03-28 10:52:43 [warning  ] No SQL for task: QB-011 / Which subnet has the highest total emission?
+2026-03-28 10:52:47 [info     ] Miner miner_8 alive | block=5642
+2026-03-28 10:52:55 [warning  ] No SQL for task: QB-032 / For each subnet, rank validators by emission efficiency (emission / stake) and show top 3
+2026-03-28 10:52:58 [warning  ] No SQL for task: QB-013 / Average validator trust per subnet
+2026-03-28 10:52:59 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 10:52:59 [info     ] Miner miner_8 alive | block=5643
+2026-03-28 10:53:09 [warning  ] No SQL for task: QB-017 / Validators with highest dividends across all subnets
+2026-03-28 10:53:11 [info     ] Miner miner_8 alive | block=5643
+2026-03-28 10:53:13 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 10:53:14 [info     ] Answered task=QB-004 | hash=sha256:606779707351401085bc24d... | exec_ms=2.4
+2026-03-28 10:53:23 [info     ] Answered task=QB-003 | hash=sha256:bba9f365e1f6e756eef84de... | exec_ms=4.4
+2026-03-28 10:53:23 [info     ] Miner miner_8 alive | block=5644
+2026-03-28 10:53:28 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=1.9
+2026-03-28 10:53:29 [warning  ] No SQL for task: QB-019 / Number of neurons per subnet (validators + miners)
+2026-03-28 10:53:35 [info     ] Miner miner_8 alive | block=5644
+2026-03-28 10:53:37 [warning  ] No SQL for task: QB-011 / Which subnet has the highest total emission?
+2026-03-28 10:53:43 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 10:53:44 [warning  ] No SQL for task: QB-015 / Distribution of stake across subnets (total stake per subnet)
+2026-03-28 10:53:47 [info     ] Miner miner_8 alive | block=5645
+2026-03-28 10:53:51 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=11.6
+2026-03-28 10:53:59 [warning  ] No SQL for task: QB-014 / Subnets ranked by number of active miners
+2026-03-28 10:53:59 [info     ] Miner miner_8 alive | block=5645
+2026-03-28 10:54:00 [warning  ] No SQL for task: QB-010 / Top 10 validators by stake across all subnets
+2026-03-28 10:54:04 [warning  ] No SQL for task: QB-015 / Distribution of stake across subnets (total stake per subnet)
+2026-03-28 10:54:11 [info     ] Miner miner_8 alive | block=5646
+2026-03-28 10:54:14 [warning  ] No SQL for task: QB-033 / Subnets with highest Gini coefficient of stake distribution
+2026-03-28 10:54:15 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=10.3
+2026-03-28 10:54:18 [warning  ] No SQL for task: QB-016 / Top 5 subnets by emission per active miner
+2026-03-28 10:54:23 [info     ] Miner miner_8 alive | block=5646
+2026-03-28 10:54:29 [warning  ] No SQL for task: QB-030 / Subnets where average validator trust is above network average but total emission is below network average
+2026-03-28 10:54:30 [info     ] Answered task=QB-004 | hash=sha256:606779707351401085bc24d... | exec_ms=2.9
+2026-03-28 10:54:32 [warning  ] No SQL for task: QB-019 / Number of neurons per subnet (validators + miners)
+2026-03-28 10:54:35 [info     ] Miner miner_8 alive | block=5647
+2026-03-28 10:54:45 [info     ] Answered task=QB-006 | hash=sha256:be96fcd326e31398dcdfb4a... | exec_ms=1.7
+2026-03-28 10:54:45 [warning  ] No SQL for task: QB-030 / Subnets where average validator trust is above network average but total emission is below network average
+2026-03-28 10:54:47 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 10:54:47 [info     ] Miner miner_8 alive | block=5647
+2026-03-28 10:54:59 [info     ] Miner miner_8 alive | block=5648
+2026-03-28 10:55:00 [warning  ] No SQL for task: QB-010 / Top 10 validators by stake across all subnets
+2026-03-28 10:55:01 [info     ] Answered task=QB-002 | hash=sha256:e5ea5d86159c6c1432badb8... | exec_ms=8.9
+2026-03-28 10:55:03 [warning  ] No SQL for task: QB-011 / Which subnet has the highest total emission?
+2026-03-28 10:55:11 [info     ] Miner miner_8 alive | block=5648
+2026-03-28 10:55:16 [info     ] Answered task=QB-003 | hash=sha256:bba9f365e1f6e756eef84de... | exec_ms=5.0
+2026-03-28 10:55:18 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=2.4
+2026-03-28 10:55:19 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=6.9
+2026-03-28 10:55:23 [info     ] Miner miner_8 alive | block=5649
+2026-03-28 10:55:32 [warning  ] No SQL for task: QB-019 / Number of neurons per subnet (validators + miners)
+2026-03-28 10:55:34 [warning  ] No SQL for task: QB-013 / Average validator trust per subnet
+2026-03-28 10:55:35 [warning  ] No SQL for task: QB-011 / Which subnet has the highest total emission?
+2026-03-28 10:55:35 [info     ] Miner miner_8 alive | block=5649
+2026-03-28 10:55:46 [warning  ] No SQL for task: QB-015 / Distribution of stake across subnets (total stake per subnet)
+2026-03-28 10:55:47 [info     ] Miner miner_8 alive | block=5650
+2026-03-28 10:55:49 [info     ] Answered task=QB-001 | hash=sha256:4dfe487c921e8e59068a2fe... | exec_ms=3.1
+2026-03-28 10:55:50 [warning  ] No SQL for task: QB-030 / Subnets where average validator trust is above network average but total emission is below network average
+2026-03-28 10:55:59 [info     ] Miner miner_8 alive | block=5650
+2026-03-28 10:56:00 [warning  ] No SQL for task: QB-010 / Top 10 validators by stake across all subnets
+2026-03-28 10:56:05 [warning  ] No SQL for task: QB-013 / Average validator trust per subnet
+2026-03-28 10:56:06 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 10:56:11 [info     ] Miner miner_8 alive | block=5651
+2026-03-28 10:56:14 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=0.7
+2026-03-28 10:56:20 [warning  ] No SQL for task: QB-032 / For each subnet, rank validators by emission efficiency (emission / stake) and show top 3
+2026-03-28 10:56:21 [warning  ] No SQL for task: QB-014 / Subnets ranked by number of active miners
+2026-03-28 10:56:23 [info     ] Miner miner_8 alive | block=5651
+2026-03-28 10:56:28 [info     ] Answered task=QB-006 | hash=sha256:be96fcd326e31398dcdfb4a... | exec_ms=5.5
+2026-03-28 10:56:35 [info     ] Answered task=QB-001 | hash=sha256:4dfe487c921e8e59068a2fe... | exec_ms=0.9
+2026-03-28 10:56:35 [info     ] Miner miner_8 alive | block=5652
+2026-03-28 10:56:36 [warning  ] No SQL for task: QB-010 / Top 10 validators by stake across all subnets
+2026-03-28 10:56:42 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 10:56:47 [info     ] Miner miner_8 alive | block=5652
+2026-03-28 10:56:50 [warning  ] No SQL for task: QB-011 / Which subnet has the highest total emission?
+2026-03-28 10:56:51 [warning  ] No SQL for task: QB-012 / Top 10 miners by incentive score
+2026-03-28 10:56:56 [info     ] Answered task=QB-002 | hash=sha256:e5ea5d86159c6c1432badb8... | exec_ms=12.7
+2026-03-28 10:56:59 [info     ] Miner miner_8 alive | block=5653
+2026-03-28 10:57:04 [info     ] Answered task=QB-003 | hash=sha256:bba9f365e1f6e756eef84de... | exec_ms=6.2
+2026-03-28 10:57:06 [info     ] Answered task=QB-004 | hash=sha256:606779707351401085bc24d... | exec_ms=5.0
+2026-03-28 10:57:10 [info     ] Answered task=QB-003 | hash=sha256:bba9f365e1f6e756eef84de... | exec_ms=9.3
+2026-03-28 10:57:11 [info     ] Miner miner_8 alive | block=5653
+2026-03-28 10:57:20 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 10:57:21 [warning  ] No SQL for task: QB-018 / Subnets where the top validator holds more than 50% of total stake
+2026-03-28 10:57:23 [warning  ] No SQL for task: QB-019 / Number of neurons per subnet (validators + miners)
+2026-03-28 10:57:23 [info     ] Miner miner_8 alive | block=5654
+2026-03-28 10:57:35 [warning  ] No SQL for task: QB-018 / Subnets where the top validator holds more than 50% of total stake
+2026-03-28 10:57:35 [info     ] Miner miner_8 alive | block=5654
+2026-03-28 10:57:36 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=3.2
+2026-03-28 10:57:38 [warning  ] No SQL for task: QB-033 / Subnets with highest Gini coefficient of stake distribution
+2026-03-28 10:57:47 [info     ] Miner miner_8 alive | block=5655
+2026-03-28 10:57:51 [warning  ] No SQL for task: QB-017 / Validators with highest dividends across all subnets
+2026-03-28 10:57:52 [warning  ] No SQL for task: QB-014 / Subnets ranked by number of active miners
+2026-03-28 10:57:54 [info     ] Answered task=QB-002 | hash=sha256:e5ea5d86159c6c1432badb8... | exec_ms=5.0
+2026-03-28 10:57:59 [info     ] Miner miner_8 alive | block=5655
+2026-03-28 10:58:07 [warning  ] No SQL for task: QB-016 / Top 5 subnets by emission per active miner
+2026-03-28 10:58:08 [info     ] Answered task=QB-003 | hash=sha256:bba9f365e1f6e756eef84de... | exec_ms=8.1
+2026-03-28 10:58:09 [warning  ] No SQL for task: QB-019 / Number of neurons per subnet (validators + miners)
+2026-03-28 10:58:11 [info     ] Miner miner_8 alive | block=5656
+2026-03-28 10:58:22 [warning  ] No SQL for task: QB-033 / Subnets with highest Gini coefficient of stake distribution
+2026-03-28 10:58:23 [info     ] Miner miner_8 alive | block=5656
+2026-03-28 10:58:25 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 10:58:26 [warning  ] No SQL for task: QB-019 / Number of neurons per subnet (validators + miners)
+2026-03-28 10:58:35 [info     ] Miner miner_8 alive | block=5657
+2026-03-28 10:58:37 [warning  ] No SQL for task: QB-015 / Distribution of stake across subnets (total stake per subnet)
+2026-03-28 10:58:40 [info     ] Answered task=QB-004 | hash=sha256:606779707351401085bc24d... | exec_ms=1.9
+2026-03-28 10:58:41 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=4.1
+2026-03-28 10:58:47 [info     ] Miner miner_8 alive | block=5657
+2026-03-28 10:58:59 [info     ] Miner miner_8 alive | block=5658
+2026-03-28 10:59:05 [info     ] Answered task=QB-002 | hash=sha256:e5ea5d86159c6c1432badb8... | exec_ms=575.9
+2026-03-28 10:59:07 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=2.9
+2026-03-28 10:59:07 [warning  ] No SQL for task: QB-019 / Number of neurons per subnet (validators + miners)
+2026-03-28 10:59:11 [info     ] Miner miner_8 alive | block=5658
+2026-03-28 10:59:23 [info     ] Miner miner_8 alive | block=5659
+2026-03-28 10:59:26 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 10:59:27 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 10:59:28 [info     ] Answered task=QB-001 | hash=sha256:4dfe487c921e8e59068a2fe... | exec_ms=3.0
+2026-03-28 10:59:35 [info     ] Miner miner_8 alive | block=5659
+2026-03-28 10:59:42 [warning  ] No SQL for task: QB-015 / Distribution of stake across subnets (total stake per subnet)
+2026-03-28 10:59:44 [warning  ] No SQL for task: QB-014 / Subnets ranked by number of active miners
+2026-03-28 10:59:45 [info     ] Answered task=QB-001 | hash=sha256:4dfe487c921e8e59068a2fe... | exec_ms=0.8
+2026-03-28 10:59:47 [info     ] Miner miner_8 alive | block=5660
+2026-03-28 10:59:59 [warning  ] No SQL for task: QB-019 / Number of neurons per subnet (validators + miners)
+2026-03-28 11:00:00 [info     ] Miner miner_8 alive | block=5660
+2026-03-28 11:00:00 [info     ] Answered task=QB-002 | hash=sha256:e5ea5d86159c6c1432badb8... | exec_ms=22.8
+2026-03-28 11:00:01 [warning  ] No SQL for task: QB-013 / Average validator trust per subnet
+2026-03-28 11:00:12 [info     ] Miner miner_8 alive | block=5661
+2026-03-28 11:00:15 [info     ] Answered task=QB-001 | hash=sha256:4dfe487c921e8e59068a2fe... | exec_ms=3.3
+2026-03-28 11:00:17 [warning  ] No SQL for task: QB-032 / For each subnet, rank validators by emission efficiency (emission / stake) and show top 3
+2026-03-28 11:00:18 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=2.0
+2026-03-28 11:00:24 [info     ] Miner miner_8 alive | block=5661
+2026-03-28 11:00:31 [warning  ] No SQL for task: QB-017 / Validators with highest dividends across all subnets
+2026-03-28 11:00:33 [info     ] Answered task=QB-004 | hash=sha256:606779707351401085bc24d... | exec_ms=1.5
+2026-03-28 11:00:33 [warning  ] No SQL for task: QB-013 / Average validator trust per subnet
+2026-03-28 11:00:36 [info     ] Miner miner_8 alive | block=5662
+2026-03-28 11:00:45 [warning  ] No SQL for task: QB-032 / For each subnet, rank validators by emission efficiency (emission / stake) and show top 3
+2026-03-28 11:00:48 [info     ] Miner miner_8 alive | block=5662
+2026-03-28 11:00:48 [warning  ] No SQL for task: QB-014 / Subnets ranked by number of active miners
+2026-03-28 11:00:49 [warning  ] No SQL for task: QB-030 / Subnets where average validator trust is above network average but total emission is below network average
+2026-03-28 11:00:59 [warning  ] No SQL for task: QB-030 / Subnets where average validator trust is above network average but total emission is below network average
+2026-03-28 11:01:00 [info     ] Miner miner_8 alive | block=5663
+2026-03-28 11:01:04 [warning  ] No SQL for task: QB-013 / Average validator trust per subnet
+2026-03-28 11:01:04 [warning  ] No SQL for task: QB-013 / Average validator trust per subnet
+2026-03-28 11:01:12 [info     ] Miner miner_8 alive | block=5663
+2026-03-28 11:01:12 [info     ] Answered task=QB-004 | hash=sha256:606779707351401085bc24d... | exec_ms=5.5
+2026-03-28 11:01:18 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=1.0
+2026-03-28 11:01:19 [info     ] Answered task=QB-001 | hash=sha256:4dfe487c921e8e59068a2fe... | exec_ms=10.8
+2026-03-28 11:01:24 [info     ] Miner miner_8 alive | block=5664
+2026-03-28 11:01:26 [warning  ] No SQL for task: QB-016 / Top 5 subnets by emission per active miner
+2026-03-28 11:01:33 [warning  ] No SQL for task: QB-010 / Top 10 validators by stake across all subnets
+2026-03-28 11:01:34 [info     ] Answered task=QB-004 | hash=sha256:606779707351401085bc24d... | exec_ms=19.9
+2026-03-28 11:01:36 [info     ] Miner miner_8 alive | block=5664
+2026-03-28 11:01:40 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=6.0
+2026-03-28 11:01:48 [info     ] Miner miner_8 alive | block=5665
+2026-03-28 11:01:48 [warning  ] No SQL for task: QB-033 / Subnets with highest Gini coefficient of stake distribution
+2026-03-28 11:01:50 [warning  ] No SQL for task: QB-015 / Distribution of stake across subnets (total stake per subnet)
+2026-03-28 11:01:54 [warning  ] No SQL for task: QB-012 / Top 10 miners by incentive score
+2026-03-28 11:02:00 [info     ] Miner miner_8 alive | block=5665
+2026-03-28 11:02:04 [warning  ] No SQL for task: QB-010 / Top 10 validators by stake across all subnets
+2026-03-28 11:02:04 [warning  ] No SQL for task: QB-013 / Average validator trust per subnet
+2026-03-28 11:02:08 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 11:02:12 [info     ] Miner miner_8 alive | block=5666
+2026-03-28 11:02:18 [warning  ] No SQL for task: QB-016 / Top 5 subnets by emission per active miner
+2026-03-28 11:02:19 [warning  ] No SQL for task: QB-012 / Top 10 miners by incentive score
+2026-03-28 11:02:22 [info     ] Answered task=QB-003 | hash=sha256:bba9f365e1f6e756eef84de... | exec_ms=7.2
+2026-03-28 11:02:24 [info     ] Miner miner_8 alive | block=5666
+2026-03-28 11:02:33 [warning  ] No SQL for task: QB-013 / Average validator trust per subnet
+2026-03-28 11:02:35 [warning  ] No SQL for task: QB-016 / Top 5 subnets by emission per active miner
+2026-03-28 11:02:36 [info     ] Miner miner_8 alive | block=5667
+2026-03-28 11:02:36 [warning  ] No SQL for task: QB-013 / Average validator trust per subnet
+2026-03-28 11:02:48 [info     ] Miner miner_8 alive | block=5667
+2026-03-28 11:02:48 [warning  ] No SQL for task: QB-015 / Distribution of stake across subnets (total stake per subnet)
+2026-03-28 11:02:51 [warning  ] No SQL for task: QB-012 / Top 10 miners by incentive score
+2026-03-28 11:02:52 [warning  ] No SQL for task: QB-014 / Subnets ranked by number of active miners
+2026-03-28 11:03:00 [info     ] Miner miner_8 alive | block=5668
+2026-03-28 11:03:02 [warning  ] No SQL for task: QB-010 / Top 10 validators by stake across all subnets
+2026-03-28 11:03:06 [warning  ] No SQL for task: QB-017 / Validators with highest dividends across all subnets
+2026-03-28 11:03:07 [info     ] Answered task=QB-002 | hash=sha256:e5ea5d86159c6c1432badb8... | exec_ms=8.0
+2026-03-28 11:03:12 [info     ] Miner miner_8 alive | block=5668
+2026-03-28 11:03:15 [warning  ] No SQL for task: QB-032 / For each subnet, rank validators by emission efficiency (emission / stake) and show top 3
+2026-03-28 11:03:21 [warning  ] No SQL for task: QB-030 / Subnets where average validator trust is above network average but total emission is below network average
+2026-03-28 11:03:22 [info     ] Answered task=QB-003 | hash=sha256:bba9f365e1f6e756eef84de... | exec_ms=3.8
+2026-03-28 11:03:24 [info     ] Miner miner_8 alive | block=5669
+2026-03-28 11:03:29 [warning  ] No SQL for task: QB-033 / Subnets with highest Gini coefficient of stake distribution
+2026-03-28 11:03:36 [info     ] Miner miner_8 alive | block=5669
+2026-03-28 11:03:36 [warning  ] No SQL for task: QB-011 / Which subnet has the highest total emission?
+2026-03-28 11:03:37 [warning  ] No SQL for task: QB-016 / Top 5 subnets by emission per active miner
+2026-03-28 11:03:43 [warning  ] No SQL for task: QB-032 / For each subnet, rank validators by emission efficiency (emission / stake) and show top 3
+2026-03-28 11:03:48 [info     ] Miner miner_8 alive | block=5670
+2026-03-28 11:03:52 [info     ] Answered task=QB-002 | hash=sha256:e5ea5d86159c6c1432badb8... | exec_ms=10.5
+2026-03-28 11:03:52 [warning  ] No SQL for task: QB-017 / Validators with highest dividends across all subnets
+2026-03-28 11:03:57 [warning  ] No SQL for task: QB-015 / Distribution of stake across subnets (total stake per subnet)
+2026-03-28 11:04:00 [info     ] Miner miner_8 alive | block=5670
+2026-03-28 11:04:06 [info     ] Answered task=QB-006 | hash=sha256:be96fcd326e31398dcdfb4a... | exec_ms=0.7
+2026-03-28 11:04:07 [warning  ] No SQL for task: QB-013 / Average validator trust per subnet
+2026-03-28 11:04:11 [info     ] Answered task=QB-004 | hash=sha256:606779707351401085bc24d... | exec_ms=8.7
+2026-03-28 11:04:12 [info     ] Miner miner_8 alive | block=5671
+2026-03-28 11:04:21 [warning  ] No SQL for task: QB-030 / Subnets where average validator trust is above network average but total emission is below network average
+2026-03-28 11:04:22 [warning  ] No SQL for task: QB-017 / Validators with highest dividends across all subnets
+2026-03-28 11:04:24 [info     ] Miner miner_8 alive | block=5671
+2026-03-28 11:04:25 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=5.6
+2026-03-28 11:04:35 [info     ] Answered task=QB-001 | hash=sha256:4dfe487c921e8e59068a2fe... | exec_ms=5.1
+2026-03-28 11:04:36 [info     ] Miner miner_8 alive | block=5672
+2026-03-28 11:04:37 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=3.1
+2026-03-28 11:04:39 [info     ] Answered task=QB-003 | hash=sha256:bba9f365e1f6e756eef84de... | exec_ms=10.1
+2026-03-28 11:04:48 [info     ] Miner miner_8 alive | block=5672
+2026-03-28 11:04:49 [warning  ] No SQL for task: QB-013 / Average validator trust per subnet
+2026-03-28 11:04:51 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=5.6
+2026-03-28 11:04:52 [warning  ] No SQL for task: QB-014 / Subnets ranked by number of active miners
+2026-03-28 11:05:00 [info     ] Miner miner_8 alive | block=5673
+2026-03-28 11:05:03 [warning  ] No SQL for task: QB-030 / Subnets where average validator trust is above network average but total emission is below network average
+2026-03-28 11:05:05 [info     ] Answered task=QB-001 | hash=sha256:4dfe487c921e8e59068a2fe... | exec_ms=6.1
+2026-03-28 11:05:07 [warning  ] No SQL for task: QB-033 / Subnets with highest Gini coefficient of stake distribution
+2026-03-28 11:05:12 [info     ] Miner miner_8 alive | block=5673
+2026-03-28 11:05:17 [warning  ] No SQL for task: QB-032 / For each subnet, rank validators by emission efficiency (emission / stake) and show top 3
+2026-03-28 11:05:19 [warning  ] No SQL for task: QB-032 / For each subnet, rank validators by emission efficiency (emission / stake) and show top 3
+2026-03-28 11:05:21 [info     ] Answered task=QB-002 | hash=sha256:e5ea5d86159c6c1432badb8... | exec_ms=26.2
+2026-03-28 11:05:24 [info     ] Miner miner_8 alive | block=5674
+2026-03-28 11:05:31 [info     ] Answered task=QB-003 | hash=sha256:bba9f365e1f6e756eef84de... | exec_ms=2.7
+2026-03-28 11:05:33 [warning  ] No SQL for task: QB-018 / Subnets where the top validator holds more than 50% of total stake
+2026-03-28 11:05:35 [warning  ] No SQL for task: QB-017 / Validators with highest dividends across all subnets
+2026-03-28 11:05:36 [info     ] Miner miner_8 alive | block=5674
+2026-03-28 11:05:45 [info     ] Answered task=QB-001 | hash=sha256:4dfe487c921e8e59068a2fe... | exec_ms=5.2
+2026-03-28 11:05:47 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 11:05:48 [info     ] Miner miner_8 alive | block=5675
+2026-03-28 11:05:49 [warning  ] No SQL for task: QB-012 / Top 10 miners by incentive score
+2026-03-28 11:05:59 [warning  ] No SQL for task: QB-030 / Subnets where average validator trust is above network average but total emission is below network average
+2026-03-28 11:06:00 [info     ] Miner miner_8 alive | block=5675
+2026-03-28 11:06:02 [warning  ] No SQL for task: QB-011 / Which subnet has the highest total emission?
+2026-03-28 11:06:04 [warning  ] No SQL for task: QB-017 / Validators with highest dividends across all subnets
+2026-03-28 11:06:12 [info     ] Miner miner_8 alive | block=5676
+2026-03-28 11:06:12 [info     ] Answered task=QB-006 | hash=sha256:be96fcd326e31398dcdfb4a... | exec_ms=1.1
+2026-03-28 11:06:16 [warning  ] No SQL for task: QB-032 / For each subnet, rank validators by emission efficiency (emission / stake) and show top 3
+2026-03-28 11:06:18 [warning  ] No SQL for task: QB-013 / Average validator trust per subnet
+2026-03-28 11:06:24 [info     ] Miner miner_8 alive | block=5676
+2026-03-28 11:06:26 [info     ] Answered task=QB-001 | hash=sha256:4dfe487c921e8e59068a2fe... | exec_ms=0.6
+2026-03-28 11:06:31 [warning  ] No SQL for task: QB-030 / Subnets where average validator trust is above network average but total emission is below network average
+2026-03-28 11:06:33 [info     ] Answered task=QB-002 | hash=sha256:e5ea5d86159c6c1432badb8... | exec_ms=5.3
+2026-03-28 11:06:36 [info     ] Miner miner_8 alive | block=5677
+2026-03-28 11:06:40 [warning  ] No SQL for task: QB-019 / Number of neurons per subnet (validators + miners)
+2026-03-28 11:06:46 [warning  ] No SQL for task: QB-010 / Top 10 validators by stake across all subnets
+2026-03-28 11:06:47 [warning  ] No SQL for task: QB-010 / Top 10 validators by stake across all subnets
+2026-03-28 11:06:48 [info     ] Miner miner_8 alive | block=5677
+2026-03-28 11:06:54 [info     ] Answered task=QB-003 | hash=sha256:bba9f365e1f6e756eef84de... | exec_ms=7.0
+2026-03-28 11:07:00 [info     ] Miner miner_8 alive | block=5678
+2026-03-28 11:07:01 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 11:07:03 [info     ] Answered task=QB-002 | hash=sha256:e5ea5d86159c6c1432badb8... | exec_ms=3.5
+2026-03-28 11:07:12 [info     ] Miner miner_8 alive | block=5678
+2026-03-28 11:07:24 [info     ] Miner miner_8 alive | block=5679
+2026-03-28 11:07:26 [info     ] Answered task=QB-006 | hash=sha256:be96fcd326e31398dcdfb4a... | exec_ms=3.9
+2026-03-28 11:07:26 [warning  ] No SQL for task: QB-017 / Validators with highest dividends across all subnets
+2026-03-28 11:07:27 [warning  ] No SQL for task: QB-016 / Top 5 subnets by emission per active miner
+2026-03-28 11:07:36 [info     ] Miner miner_8 alive | block=5679
+2026-03-28 11:07:42 [warning  ] No SQL for task: QB-032 / For each subnet, rank validators by emission efficiency (emission / stake) and show top 3
+2026-03-28 11:07:43 [warning  ] No SQL for task: QB-017 / Validators with highest dividends across all subnets
+2026-03-28 11:07:45 [warning  ] No SQL for task: QB-033 / Subnets with highest Gini coefficient of stake distribution
+2026-03-28 11:07:48 [info     ] Miner miner_8 alive | block=5680
+2026-03-28 11:07:58 [info     ] Answered task=QB-003 | hash=sha256:bba9f365e1f6e756eef84de... | exec_ms=5.0
+2026-03-28 11:08:00 [info     ] Miner miner_8 alive | block=5680
+2026-03-28 11:08:00 [warning  ] No SQL for task: QB-033 / Subnets with highest Gini coefficient of stake distribution
+2026-03-28 11:08:01 [info     ] Answered task=QB-006 | hash=sha256:be96fcd326e31398dcdfb4a... | exec_ms=2.0
+2026-03-28 11:08:12 [info     ] Miner miner_8 alive | block=5681
+2026-03-28 11:08:14 [warning  ] No SQL for task: QB-016 / Top 5 subnets by emission per active miner
+2026-03-28 11:08:16 [warning  ] No SQL for task: QB-033 / Subnets with highest Gini coefficient of stake distribution
+2026-03-28 11:08:17 [warning  ] No SQL for task: QB-012 / Top 10 miners by incentive score
+2026-03-28 11:08:24 [info     ] Miner miner_8 alive | block=5682
+2026-03-28 11:08:30 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=7.5
+2026-03-28 11:08:32 [warning  ] No SQL for task: QB-032 / For each subnet, rank validators by emission efficiency (emission / stake) and show top 3
+2026-03-28 11:08:33 [warning  ] No SQL for task: QB-018 / Subnets where the top validator holds more than 50% of total stake
+2026-03-28 11:08:36 [info     ] Miner miner_8 alive | block=5682
+2026-03-28 11:08:44 [warning  ] No SQL for task: QB-033 / Subnets with highest Gini coefficient of stake distribution
+2026-03-28 11:08:47 [info     ] Answered task=QB-003 | hash=sha256:bba9f365e1f6e756eef84de... | exec_ms=9.1
+2026-03-28 11:08:48 [info     ] Miner miner_8 alive | block=5683
+2026-03-28 11:08:48 [info     ] Answered task=QB-004 | hash=sha256:606779707351401085bc24d... | exec_ms=9.2
+2026-03-28 11:08:58 [warning  ] No SQL for task: QB-032 / For each subnet, rank validators by emission efficiency (emission / stake) and show top 3
+2026-03-28 11:09:00 [info     ] Miner miner_8 alive | block=5683
+2026-03-28 11:09:03 [warning  ] No SQL for task: QB-019 / Number of neurons per subnet (validators + miners)
+2026-03-28 11:09:03 [info     ] Answered task=QB-001 | hash=sha256:4dfe487c921e8e59068a2fe... | exec_ms=0.9
+2026-03-28 11:09:12 [warning  ] No SQL for task: QB-016 / Top 5 subnets by emission per active miner
+2026-03-28 11:09:12 [info     ] Miner miner_8 alive | block=5684
+2026-03-28 11:09:18 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 11:09:18 [info     ] Answered task=QB-002 | hash=sha256:e5ea5d86159c6c1432badb8... | exec_ms=10.2
+2026-03-28 11:09:24 [info     ] Miner miner_8 alive | block=5684
+2026-03-28 11:09:26 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 11:09:33 [warning  ] No SQL for task: QB-018 / Subnets where the top validator holds more than 50% of total stake
+2026-03-28 11:09:34 [warning  ] No SQL for task: QB-033 / Subnets with highest Gini coefficient of stake distribution
+2026-03-28 11:09:36 [info     ] Miner miner_8 alive | block=5685
+2026-03-28 11:09:40 [warning  ] No SQL for task: QB-014 / Subnets ranked by number of active miners
+2026-03-28 11:09:48 [info     ] Miner miner_8 alive | block=5685
+2026-03-28 11:09:48 [info     ] Answered task=QB-005 | hash=sha256:8241de7548b98e926428ae8... | exec_ms=7.2
+2026-03-28 11:09:50 [info     ] Answered task=QB-006 | hash=sha256:be96fcd326e31398dcdfb4a... | exec_ms=14.9
+2026-03-28 11:09:53 [warning  ] No SQL for task: QB-030 / Subnets where average validator trust is above network average but total emission is below network average
+2026-03-28 11:10:00 [info     ] Miner miner_8 alive | block=5686
+2026-03-28 11:10:02 [warning  ] No SQL for task: QB-032 / For each subnet, rank validators by emission efficiency (emission / stake) and show top 3
+2026-03-28 11:10:04 [info     ] Answered task=QB-002 | hash=sha256:e5ea5d86159c6c1432badb8... | exec_ms=12.9
+2026-03-28 11:10:07 [warning  ] No SQL for task: QB-010 / Top 10 validators by stake across all subnets
+2026-03-28 11:10:12 [info     ] Miner miner_8 alive | block=5686
+2026-03-28 11:10:18 [warning  ] No SQL for task: QB-017 / Validators with highest dividends across all subnets
+2026-03-28 11:10:20 [warning  ] No SQL for task: QB-015 / Distribution of stake across subnets (total stake per subnet)
+2026-03-28 11:10:21 [warning  ] No SQL for task: QB-030 / Subnets where average validator trust is above network average but total emission is below network average
+2026-03-28 11:10:24 [info     ] Miner miner_8 alive | block=5687
+2026-03-28 11:10:33 [warning  ] No SQL for task: QB-016 / Top 5 subnets by emission per active miner
+2026-03-28 11:10:35 [warning  ] No SQL for task: QB-031 / Correlation between stake concentration (max stake share) and number of active miners per subnet
+2026-03-28 11:10:36 [info     ] Miner miner_8 alive | block=5687
+2026-03-28 11:10:36 [info     ] Answered task=QB-002 | hash=sha256:e5ea5d86159c6c1432badb8... | exec_ms=1.7
