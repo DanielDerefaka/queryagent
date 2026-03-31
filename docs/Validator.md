@@ -169,6 +169,24 @@ EMA scores: [0.0, 0.0, 0.0, 0.981, 0.981, 0.981, 0.463, 0.463, 0.463, 0.463, 0.1
 | `EMA_ALPHA` | 0.1 | Smoothing factor |
 | `HIDDEN_RATIO` | 0.20 | Fraction of hidden tasks sampled |
 
+## Security: Ground Truth Distribution
+
+In this testnet demo, ground truth and hidden tasks are included in the repository so judges can run the full system end-to-end. In production, this changes:
+
+**Why it's safe even now:** Miners can't just return a stolen hash. The validator **re-executes the miner's SQL** independently on its own DuckDB snapshot. If the miner sends a valid hash but garbage SQL (or no SQL), the re-execution produces a different hash and the miner scores zero. The miner must return SQL that actually produces the correct result.
+
+**Production distribution model:**
+- Hidden tasks and ground truth are distributed to validators via an **encrypted private channel** (validator-only API endpoint, not a public repo)
+- Task pool refreshes monthly with new hidden tasks — miners can't pre-compute answers
+- Snapshot rotation invalidates all memorized hashes
+- Parameter injection (randomized constraints each round) means even known task IDs produce different expected results
+
+**What prevents a miner from running the validator locally to see answers?**
+- In production: nothing stops them from reading the open-source code, but generating ground truth requires the private task definitions that validators receive through a secure channel
+- The subnet's real defense is economic: writing correct SQL is cheaper than maintaining a cheat infrastructure that tracks rotating tasks, snapshots, and parameterized constraints
+
+This is the standard model for Bittensor subnets — all code is open source, security comes from mechanism design, not code secrecy.
+
 ## Hardware
 
 | Component | Requirement |
